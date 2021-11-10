@@ -30,6 +30,12 @@
   &:last-child {
     margin-right: 0;
   }
+  &:hover {
+    filter: contrast(150%);
+  }
+  &:active {
+    opacity: 0.6;
+  }
 }
 .lang-container {
   margin-left: 215px;
