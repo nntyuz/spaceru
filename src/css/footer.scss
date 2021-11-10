@@ -1,0 +1,76 @@
+.footer {
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.08) 0%,
+      rgba(255, 255, 255, 0.0001) 100%
+    ),
+    #131224;
+  padding-top: 41px;
+  padding-bottom: 26px;
+}
+.footer-container {
+  justify-content: space-between;
+}
+.logo-wrapper {
+  font-family: "Magistral Book", Arial, Helvetica, sans-serif;
+  margin-top: 26px;
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: 400;
+  color: white;
+  text-transform: none;
+  font-weight: 400;
+  flex-direction: column;
+  a {
+    line-height: 36px;
+    color: white;
+    text-decoration: underline;
+  }
+}
+.logo-inf {
+  line-height: 16px;
+}
+.c {
+  margin-top: 10px;
+}
+.slogan-footer {
+  font-family: "Magistral Book", Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #ffffff;
+  text-align: center;
+}
+.mt {
+  margin-top: 20px;
+}
+@media (max-width: 1440px) {
+  .logo-wrapper {
+    margin-top: 16px;
+  }
+  .slogan-footer {
+    font-size: 16px;
+    line-height: 16px;
+  }
+}
+@media (max-width: 768px) {
+  .slogan-footer {
+    display: none;
+  }
+  .logo-wrapper {
+    font-size: 12px;
+    a {
+      line-height: 26px;
+    }
+  }
+  .messengers {
+    &:last-child {
+      display: none;
+    }
+  }
+}
+@media (max-width: 375px) {
+  .logo-wrapper {
+    margin-top: 10px;
+  }
+}

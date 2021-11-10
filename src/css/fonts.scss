@@ -1,0 +1,24 @@
+@font-face {
+  font-family: "Magistral Book";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("./fonts/Magistral-Book.woff2") format("woff2"),
+    url("./fonts/Magistral-Book.woff") format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Magistral Medium";
+  font-style: normal;
+  font-weight: 500;
+  src: local(""), url("./fonts/Magistral-Medium.woff2") format("woff2"),
+    url("./fonts/Magistral-Medium.woff") format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Magistral Bold";
+  font-style: normal;
+  font-weight: 700;
+  src: local(""), url("./fonts/Magistral-Bold.woff2") format("woff2"),
+    url("./fonts/Magistral-Bold.woff") format("woff");
+  font-display: swap;
+}

@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  min-width: 375px;
+  font-family: "Magistral-Book", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+.w-container {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.flex {
+  display: flex;
+}
